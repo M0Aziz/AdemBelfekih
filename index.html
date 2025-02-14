@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réduire le Temps d'Écran</title>
+    <style>
+        /* Style global */
+        body {
+            background-color: rgb(238, 222, 247);
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Conteneur principal */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4b0082;  /* Titre coloré en rouge-orange */
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #4b0082;
+            font-size: 1.8em;
+            margin: 0 0 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            text-align: justify;
+            padding: 0 20px;
+            margin: 10px 0;
+        }
+
+        hr {
+            border: 1px solid #4b0082;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .text-end {
+            text-align: end;
+            padding-right: 20px;
+            font-size: 1.1em;
+        }
+
+        /* Ciblage des images */
+        img {
+            width: 100%;
+            max-width: 600px;
+            margin: 10px auto;
+            display: block;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);  /* Agrandissement lors du hover */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Ombre autour de l'image */
+        }
+
+        /* Vidéo */
+        video {
+            width: 100%;
+            max-width: 900px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            img {
+                width: 90%;
+                max-width: none;
+            }
+
+            h1 {
+                font-size: 2.2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            video {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            p {
+                font-size: 0.95em;
+            }
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+
+            .text-end {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+	<h1>Réduisez Votre Temps d'Écran</h1>
+
+        <h4 style="text-align:center">Réduisez Votre Temps d'Écran pour un Bien-être Amélioré</h4>
+
+        <p>
+            Pendant le confinement, vous étiez scotché à votre smartphone nuit et jour, pour télétravailler, vous tenir au courant des dernières informations ou simplement combler l'ennui ? Pas de panique, vous n'étiez pas le seul. Le temps que les Français ont passé sur leur téléphone en avril 2020 a bondi de 47% par rapport à avril 2019. À une époque où notre premier réflexe est de scroller machinalement sur les réseaux sociaux pour s'occuper les mains et l'esprit, le confinement ne pouvait qu'amplifier cette addiction moderne.
+        </p>
+
+        <p>
+            Mais aujourd'hui, le confinement est (on l'espère) derrière nous, et vous avez du mal à perdre cette mauvaise habitude. Pourtant, réduire son temps d'écran présente de nombreux avantages : cela permet de diminuer le stress, la sensation de fatigue, et même parfois les migraines. Et en bonus, qui dit moins de temps sur son smartphone dit plus de temps libre pour faire autre chose. Afin de réussir à diminuer votre temps d'écran, vous pouvez suivre ces quelques conseils simples et efficaces. Promis, pas besoin de partir en cure de désintoxication numérique hors de prix ni de brûler votre smartphone.
+        </p>
+
+        <hr>
+
+        <p>Exemple 1 : Le temps de qualité passé en famille a des répercussions bénéfiques : bien-être, sentiment d’appartenance, et influence positive sur le développement cognitif.</p>
+        <img src="Adam-belfekih-CM2G.PNG" alt="Exemple 1">
+
+        <p>Exemple 2 : Le temps passé sur les écrans est très souvent statique, cela réduit donc la durée d'activité physique pratiquée au quotidien au lieu de ne rien faire.</p>
+        <img src="Adam-belfekih-CM2G-2.PNG" alt="Exemple 2">
+
+        <p>Message pour prévenir que les écrans ne sont pas très bons pour la santé et prennent trop de temps dans notre vie.</p>
+
+        <video src="Envoyé spécial. Les écrans endommagent les cerveaux - 18 janvier 2018 (France 2).mp4" controls></video>
+
+        <p>Voici la répercussion que peuvent avoir les écrans sur notre corps : passer trop de temps sur les écrans peut diminuer votre vision et empêcher de dormir.</p>
+        <img src="images.jpg" alt="Effets des écrans sur la santé" style="width: 70%; max-width: 700px; margin-top:25px">
+
+        <p class="text-end" style="margin-top:25px">Adèm Belfekih</p>
+        <p class="text-end">CM2-G</p>
+    </div>
+
+</body>
+</html>
